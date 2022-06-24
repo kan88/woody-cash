@@ -3,55 +3,12 @@
 @import "common/variables.scss";
 @import "common/fonts.scss";
 @import "common/typography.scss";
-@import "blocks/main-header.scss";
+@import "blocks/header.scss";
 @import "blocks/logo.scss";
-@import "blocks/main-nav.scss";
-@import "blocks/site-list.scss";
-@import "blocks/user-list.scss";
-@import "blocks/extra-list.scss";
-@import "blocks/header-text.scss";
-@import "blocks/main.scss";
-@import "blocks/main-section.scss";
-@import "blocks/main-list.scss";
-@import "blocks/week-section.scss";
-@import "blocks/week.scss";
-@import "blocks/week-product.scss";
-@import "blocks/about.scss";
-@import "blocks/about-section.scss";
-@import "blocks/about-list.scss";
-@import "blocks/reviews.scss";
-@import "blocks/slider.scss";
-@import "blocks/slider-toggle.scss";
+@import "blocks/main-container.scss";
+@import "blocks/intro.scss";
+@import "blocks/services.scss";
+@import "blocks/advantages.scss";
 @import "blocks/contacts.scss";
-@import "blocks/contacts-section.scss";
-@import "blocks/contacts-item.scss";
-@import "blocks/main-footer.scss";
-@import "blocks/footer-section.scss";
-@import "blocks/footer-logo.scss";
+@import "blocks/footer.scss";
 @import "blocks/social.scss";
-@import "blocks/copyright.scss";
-@import "blocks/modal-container.scss";
-
-
-// Стили формы
-@import "blocks/modal.scss";
-@import "blocks/form-content.scss";
-@import "blocks/form-radio.scss";
-
-// Стили каталога
-@import "blocks/main-catalog-section.scss";
-@import "blocks/catalog-section.scss";
-@import "blocks/card.scss";
-@import "blocks/video-section.scss";
-@import "blocks/video.scss";
-
-// Стили формы
-@import "blocks/main-inner.scss";
-@import "blocks/form.scss";
-@import "blocks/form-inner.scss";
-@import "blocks/radio.scss";
-@import "blocks/checkbox.scss";
-@import "blocks/name.scss";
-@import "blocks/number.scss";
-@import "blocks/mail.scss";
-@import "blocks/option.scss";
