@@ -1,1 +1,0 @@
-const nav=document.querySelector(".header__nav"),button=document.querySelector(".header__button");button.addEventListener("click",(()=>{nav.classList.contains("header__nav--closed")?(nav.classList.remove("header__nav--closed"),nav.classList.add("header__nav--opened")):(nav.classList.add("header__nav--closed"),nav.classList.remove("header__nav--opened"))}));
