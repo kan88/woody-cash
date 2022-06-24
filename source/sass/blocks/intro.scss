@@ -1,0 +1,30 @@
+.intro {
+  height: 200px;
+}
+
+.intro__title {
+  font-size: 18px;
+  line-height: 1.5;
+  width: 200px;
+  margin: 0 auto;
+  color: $secondary;
+  padding-top: 70px;
+}
+
+@media (min-width: $tablet-width) {
+  .intro__title {
+    font-size: 22px;
+    width: 250px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .intro {
+    margin-bottom: 50px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    width: 850px;
+  }
+}

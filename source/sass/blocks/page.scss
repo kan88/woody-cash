@@ -1,0 +1,10 @@
+.page__main {
+  position: relative;
+  top: 44px;
+}
+
+@media (min-width: $tablet-width) {
+  .page__main {
+    top: 94px;
+  }
+}

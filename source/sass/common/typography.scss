@@ -23,12 +23,12 @@ body {
   font-size: 17px;
   line-height: 24px;
   font-weight: 700;
-  color: $secondary;
+  color: $primary;
   text-align: center;
-  background-color: $tertiary;
+  background-color: $secondary;
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  object-fit: cover;
 }
