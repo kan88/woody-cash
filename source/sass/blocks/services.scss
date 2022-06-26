@@ -3,6 +3,15 @@
   margin: 0 auto;
 }
 
+.services__title {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $hover;
+  text-decoration: underline;
+}
+
 .services__list {
   list-style-type: none;
   margin: 0 auto;
@@ -21,6 +30,7 @@
 
 .services__wrapper-image {
   overflow: hidden;
+  background-color: $tertiary;
 }
 
 .services__link {
@@ -72,4 +82,13 @@
   padding-bottom: 5px;
   border-radius: 15px;
   text-transform: uppercase;
+}
+
+
+@media (min-width: $tablet-width) {
+  .services__title {
+    font-size: 32px;
+    padding: 0;
+    margin-bottom: 50px;
+  }
 }
